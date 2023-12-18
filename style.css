@@ -1,0 +1,87 @@
+/* General styling for the body element */
+body {
+    display: flex;
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+
+/* Styling for a container element */
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 25%;
+    height: 32%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Styling for an answer box element */
+.AnswerBox {
+    background: rgba(138, 138, 138, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(0, 0, 0, 0.43);
+}
+
+/* Styling for paragraph elements */
+p {
+    display: inline;
+}
+
+/* Styling for left and right side elements */
+.left-side, .right-side {
+    flex: 1;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* Styling for the left-side element */
+.left-side {
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 7%;
+    right: 50%;
+    width: 50%;
+}
+
+/* Styling for the right-side element */
+.right-side {
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    top: 7%;
+}
+
+/* Styling for the "Math It" heading */
+.mathit {
+    color: rgb(94, 94, 255);
+    position: absolute;
+    left: 48%;
+}
+
+/* Styling for table elements */
+table {
+    width: 25%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Styling for table header and table data cells */
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Styling for table header cells */
+th {
+    background-color: #f2f2f2;
+}
